@@ -1,0 +1,63 @@
+// ------------------------------------------------------------------
+// NOTICE file corresponding to the section 4d of The Apache License,
+// Version 2.0, in this case for Maven Resources Plugin
+// ------------------------------------------------------------------
+
+Maven Resources Plugin
+Copyright 2002-2016 The Apache Software Foundation
+
+This product includes/uses software(s) developed by 'an unknown organization'
+  - cglib (http://cglib.sourceforge.net/)
+  - Guava: Google Core Libraries for Java (http://code.google.com/p/guava-libraries/guava)
+  - Java Native Access (https://github.com/twall/jna)
+  - Java Native Access Platform (https://github.com/twall/jna)
+  - CSS Parser (http://cssparser.sourceforge.net/)
+  - HtmlUnit Core JS (http://htmlunit.sourceforge.net)
+  - Neko HTML (http://nekohtml.sourceforge.net/)
+  - selenium-api (http://selenium.googlecode.com/selenium-api/)
+  - selenium-chrome-driver (http://selenium.googlecode.com/selenium-chrome-driver/)
+  - selenium-firefox-driver (http://selenium.googlecode.com/selenium-firefox-driver/)
+  - selenium-htmlunit-driver (http://selenium.googlecode.com/selenium-htmlunit-driver/)
+  - selenium-ie-driver (http://selenium.googlecode.com/selenium-ie-driver/)
+  - selenium-java (http://selenium.googlecode.com/selenium-java/)
+  - selenium-leg-rc (http://selenium.googlecode.com/selenium-leg-rc/)
+  - selenium-remote-driver (http://selenium.googlecode.com/selenium-remote-driver/)
+  - selenium-safari-driver (http://selenium.googlecode.com/selenium-safari-driver/)
+  - selenium-support (http://selenium.googlecode.com/selenium-support/)
+  - webbit (http://webbitserver.org/)
+  - Xerces2-j (https://xerces.apache.org/xerces2-j/)
+  - XML Commons External Components XML APIs (http://xml.apache.org/commons/components/external/)
+
+This product includes/uses software(s) developed by 'Gargoyle Software Inc.' (http://www.GargoyleSoftware.com/)
+  - HtmlUnit (http://htmlunit.sourceforge.net)
+
+This product includes/uses software(s) developed by 'Google, Inc.' (http://www.google.com)
+  - Gson (http://code.google.com/p/google-gson/)
+
+This product includes/uses software(s) developed by 'The Apache Software Foundation' (http://www.apache.org/)
+  - Commons Codec (http://commons.apache.org/codec/)
+  - Commons Collections (http://commons.apache.org/collections/)
+  - Commons IO (http://commons.apache.org/io/)
+  - Commons Logging (http://commons.apache.org/proper/commons-logging/)
+  - Apache Commons Exec (http://commons.apache.org/proper/commons-exec/)
+  - Apache Commons Lang (http://commons.apache.org/proper/commons-lang/)
+  - Apache HttpClient (http://hc.apache.org/httpcomponents-client)
+  - Apache HttpCore (http://hc.apache.org/httpcomponents-core-ga)
+  - Apache HttpClient Mime (http://hc.apache.org/httpcomponents-client)
+  - Xalan Java Serializer (http://xml.apache.org/xalan-j/)
+  - Xalan Java (http://xml.apache.org/xalan-j/)
+
+This product includes/uses software(s) developed by 'The Netty Project' (http://netty.io/)
+  - The Netty Project (http://netty.io/)
+
+This product includes/uses software(s) developed by 'Webtide' (http://webtide.com)
+  - Jetty :: IO Utility (http://www.eclipse.org/jetty)
+  - Jetty :: Utilities (http://www.eclipse.org/jetty)
+  - Jetty :: Websocket :: API (http://www.eclipse.org/jetty/websocket-api)
+  - Jetty :: Websocket :: Client (http://www.eclipse.org/jetty/websocket-client)
+  - Jetty :: Websocket :: Common (http://www.eclipse.org/jetty/websocket-common)
+
+This product includes/uses software(s) developed by 'World Wide Web Consortium' (http://www.w3.org/)
+  - Simple API for CSS (http://www.w3.org/Style/CSS/SAC/)
+
+
