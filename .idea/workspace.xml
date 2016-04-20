@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e80e69e-6483-475c-8b8f-92218a3b4b8c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/NOTICE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/META-INF/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/META-INF/NOTICE" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/scenarios/androidSetup.class" afterPath="$PROJECT_DIR$/target/test-classes/scenarios/androidSetup.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/scenarios/testButtonLike.class" afterPath="$PROJECT_DIR$/target/test-classes/scenarios/testButtonLike.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/scenarios/androidSetup.java" afterPath="$PROJECT_DIR$/src/test/java/scenarios/androidSetup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/scenarios/testButtonLike.java" afterPath="$PROJECT_DIR$/src/test/java/scenarios/testButtonLike.java" />
     </list>
     <ignored path="Appium-Test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,13 +27,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="androidSetup.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="androidSetup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/scenarios/androidSetup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+            <state relative-caret-position="291">
+              <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
               <folding>
                 <element signature="method#sendText#0;class#androidSetup#0" expanded="false" />
+                <element signature="method#swipe#0;class#androidSetup#0" expanded="false" />
                 <element signature="method#goBack#0;class#androidSetup#0" expanded="false" />
                 <element signature="method#buttonLike#0;class#androidSetup#0" expanded="false" />
                 <element signature="method#eventImage#0;class#androidSetup#0" expanded="false" />
@@ -56,14 +50,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testButtonLike.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="testButtonLike.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/scenarios/testButtonLike.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
               <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -145,7 +137,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -224,6 +215,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -777,63 +769,74 @@
       <option name="presentableId" value="Default" />
       <updated>1461143046209</updated>
       <workItem from="1461143054992" duration="4199000" />
-      <workItem from="1461147999303" duration="2596000" />
+      <workItem from="1461147999303" duration="6247000" />
+      <workItem from="1461162655839" duration="4009000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="androidSetup_testCall - 2016.04.20 at 11h 30m 50s.xml">
+    <history-entry file="androidSetup_testCall - 2016.04.20 at 15h 34m 41s.xml">
       <configuration name="androidSetup.testCall" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="androidSetup_testCall - 2016.04.20 at 11h 31m 44s.xml">
+    <history-entry file="androidSetup_testCall - 2016.04.20 at 15h 38m 12s.xml">
       <configuration name="androidSetup.testCall" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="androidSetup_testCall - 2016.04.20 at 11h 33m 31s.xml">
+    <history-entry file="androidSetup_testCall - 2016.04.20 at 16h 01m 35s.xml">
       <configuration name="androidSetup.testCall" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="androidSetup_testCall - 2016.04.20 at 11h 42m 45s.xml">
+    <history-entry file="androidSetup_testCall - 2016.04.20 at 16h 06m 02s.xml">
       <configuration name="androidSetup.testCall" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="androidSetup_testCall - 2016.04.20 at 11h 43m 25s.xml">
+    <history-entry file="androidSetup_testCall - 2016.04.20 at 16h 07m 45s.xml">
       <configuration name="androidSetup.testCall" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="androidSetup_testCall - 2016.04.20 at 11h 56m 06s.xml">
+    <history-entry file="androidSetup_testCall - 2016.04.20 at 16h 15m 36s.xml">
       <configuration name="androidSetup.testCall" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="androidSetup_testCall - 2016.04.20 at 12h 12m 36s.xml">
+    <history-entry file="androidSetup_testCall - 2016.04.20 at 16h 26m 16s.xml">
       <configuration name="androidSetup.testCall" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testButtonLike_testCal - 2016.04.20 at 11h 15m 20s.xml">
-      <configuration name="testButtonLike.testCal" configurationId="TestNG" />
+    <history-entry file="androidSetup_testCall - 2016.04.20 at 16h 27m 58s.xml">
+      <configuration name="androidSetup.testCall" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testButtonLike_testCal - 2016.04.20 at 11h 15m 32s.xml">
-      <configuration name="testButtonLike.testCal" configurationId="TestNG" />
+    <history-entry file="androidSetup_testCall - 2016.04.20 at 16h 28m 33s.xml">
+      <configuration name="androidSetup.testCall" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testButtonLike_testCal - 2016.04.20 at 11h 17m 57s.xml">
-      <configuration name="testButtonLike.testCal" configurationId="TestNG" />
+    <history-entry file="androidSetup_testCall - 2016.04.20 at 16h 29m 05s.xml">
+      <configuration name="androidSetup.testCall" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6795000" />
+    <option name="totallyTimeSpent" value="14455000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.49786553" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.49695966" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.48479822" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.50213444" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.5129906" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.4870094" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15257049" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -844,7 +847,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -867,6 +869,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#sendText#0;class#androidSetup#0" expanded="false" />
+            <element signature="method#swipe#0;class#androidSetup#0" expanded="false" />
             <element signature="method#goBack#0;class#androidSetup#0" expanded="false" />
             <element signature="method#buttonLike#0;class#androidSetup#0" expanded="false" />
             <element signature="method#eventImage#0;class#androidSetup#0" expanded="false" />
@@ -885,9 +888,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/scenarios/androidSetup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="method#sendText#0;class#androidSetup#0" expanded="false" />
+            <element signature="method#swipe#0;class#androidSetup#0" expanded="false" />
+            <element signature="method#goBack#0;class#androidSetup#0" expanded="false" />
+            <element signature="method#buttonLike#0;class#androidSetup#0" expanded="false" />
+            <element signature="method#eventImage#0;class#androidSetup#0" expanded="false" />
+            <element signature="method#goToYoutube#0;class#androidSetup#0" expanded="false" />
+            <element signature="method#goToHome#0;class#androidSetup#0" expanded="false" />
+            <element signature="method#goToPhoto#0;class#androidSetup#0" expanded="false" />
+            <element signature="method#removeAds#0;class#androidSetup#0" expanded="false" />
+            <element signature="method#addLike#0;class#androidSetup#0" expanded="false" />
+            <element signature="method#scrollTo#0;class#androidSetup#0" expanded="false" />
+            <element signature="method#teardown#0;class#androidSetup#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/scenarios/testButtonLike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -895,26 +925,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/scenarios/testButtonLike.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/scenarios/androidSetup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        <state relative-caret-position="291">
+          <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
           <folding>
             <element signature="method#sendText#0;class#androidSetup#0" expanded="false" />
+            <element signature="method#swipe#0;class#androidSetup#0" expanded="false" />
             <element signature="method#goBack#0;class#androidSetup#0" expanded="false" />
             <element signature="method#buttonLike#0;class#androidSetup#0" expanded="false" />
             <element signature="method#eventImage#0;class#androidSetup#0" expanded="false" />
@@ -926,6 +946,14 @@
             <element signature="method#scrollTo#0;class#androidSetup#0" expanded="false" />
             <element signature="method#teardown#0;class#androidSetup#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/scenarios/testButtonLike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>

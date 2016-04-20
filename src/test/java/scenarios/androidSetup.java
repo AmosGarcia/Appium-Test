@@ -17,11 +17,11 @@ import sun.rmi.runtime.Log;
 
 public class androidSetup {
 
-    private String appPackage ="com.wumoo.byviruzz";
-    private String appMainActivity ="com.wumoo.customyoutuber.activity.MainActivity";
+    private String appPackage = "com.wumoo.byviruzz";
+    private String appMainActivity = "com.wumoo.customyoutuber.activity.MainActivity";
     Dimension size;
-    private AndroidDriver <WebElement> android;
-    private String texto = "Me mola!!!";
+    private AndroidDriver<WebElement> android;
+    private String texto = "";
     private String scroll = "com.wumoo.byviruzz:id/event_txtEventDescription";
 
     @BeforeClass  //Detecta el dispositivo antes de lanzar
@@ -43,9 +43,7 @@ public class androidSetup {
     public void testCall() throws Exception {
 
 
-
         Thread.sleep(4000);
-        System.out.println(android.currentActivity());
         android.findElement(By.id("com.wumoo.byviruzz:id/event_footer_commentButton")).click();
         Thread.sleep(4000);
         sendText(texto);
@@ -63,7 +61,7 @@ public class androidSetup {
 
     }
 
-    protected void swipe(){
+    protected void swipe() {
 
         size = android.manage().window().getSize();
         int startx = (int) (size.width * 0.70);
@@ -73,17 +71,17 @@ public class androidSetup {
         android.swipe(startx, starty, endx, starty, 3000);
     }
 
-    protected void goBack(){
+    protected void goBack() {
 
         android.findElement(By.id("com.wumoo.byviruzz:id/toolbar_goBackButton")).click();
     }
 
-    protected void buttonLike(){
+    protected void buttonLike() {
 
         android.findElement(By.id("com.wumoo.byviruzz:id/event_footer_likeHeartButton")).click();
     }
 
-    protected void eventImage(){
+    protected void eventImage() {
 
         android.findElement(By.id("com.wumoo.byviruzz:id/event_image")).click();
     }
@@ -106,24 +104,24 @@ public class androidSetup {
 
     }
 
-    protected void removeAds(){
+    protected void removeAds() {
 
 //        android.findElement(By.id("com.wumoo.byviruzz:id/fbAdCloseLink")).click();
-        android.tap(1,1020,1782,1000);
+        android.tap(1, 1020, 1782, 1000);
     } // NO FUNCIONA
 
-    protected void addLike(){
+    protected void addLike() {
 
         android.findElement(By.id("com.wumoo.byviruzz:id/event_footer_likeHeartButton")).click();
     }
 
-    protected void scrollTo(String scroll){
+    protected void scrollTo(String scroll) {
 
         android.scrollTo(scroll);
     }
 
     @AfterClass //cierra automaticamente la sesión cuando acaba el test
-    public void teardown(){
+    public void teardown() {
         //close the app
         android.quit();
     }
