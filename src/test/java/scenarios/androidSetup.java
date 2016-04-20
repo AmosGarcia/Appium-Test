@@ -19,7 +19,7 @@ public class androidSetup {
     private String appMainActivity ="com.wumoo.customyoutuber.activity.MainActivity";
     private WebDriver web;
     private AndroidDriver <WebElement> android;
-    private String texto = "Uncharted!!!";
+    private String texto = "Me mola!!!";
 
     @BeforeClass
     protected void setUp() throws MalformedURLException {
