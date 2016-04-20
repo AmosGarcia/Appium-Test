@@ -4,8 +4,10 @@ package scenarios;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -17,13 +19,14 @@ public class androidSetup {
 
     private String appPackage ="com.wumoo.byviruzz";
     private String appMainActivity ="com.wumoo.customyoutuber.activity.MainActivity";
-    private WebDriver web;
+    Dimension size;
     private AndroidDriver <WebElement> android;
     private String texto = "Me mola!!!";
+    private String scroll = "com.wumoo.byviruzz:id/event_txtEventDescription";
 
-    @BeforeClass
+    @BeforeClass  //Detecta el dispositivo antes de lanzar
     protected void setUp() throws MalformedURLException {
-        //Set up desired capabilities and pass the Android app-activity and app-package to Appium
+
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("BROWSER_NAME", "Android");
         capabilities.setCapability("deviceName", "Galaxy S5");
@@ -31,35 +34,47 @@ public class androidSetup {
         capabilities.setCapability("platformVersion", "5.0");
         capabilities.setCapability("appPackage", appPackage);
         capabilities.setCapability("appActivity", appMainActivity);
-//        capabilities.setCapability("appPackage", "com.whatsapp");
-//        capabilities.setCapability("appActivity","com.whatsapp.Main");
-//        driver = new RemoteWebDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
         android = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
+
 
     }
 
-    @Test
-    public void testCal() throws Exception {
+    @Test  //Lazar Test
+    public void testCall() throws Exception {
+
+
 
         Thread.sleep(4000);
         System.out.println(android.currentActivity());
         android.findElement(By.id("com.wumoo.byviruzz:id/event_footer_commentButton")).click();
-        android.getOrientation();
+        Thread.sleep(4000);
         sendText(texto);
         goBack();
-        android.findElement(By.id("com.wumoo.byviruzz:id/event_footer_likeHeartButton")).click();
+        addLike();
+        swipe();
 
     }
 
 
     //Metodos del Test
-    private void sendText(String text) {
+    protected void sendText(String text) {
         android.findElement(By.id("com.wumoo.byviruzz:id/event_view_comment_input")).sendKeys(text);
         android.findElement(By.id("com.wumoo.byviruzz:id/event_view_send_button")).click();
 
     }
 
-    private void goBack(){
+    protected void swipe(){
+
+        size = android.manage().window().getSize();
+        int startx = (int) (size.width * 0.70);
+        int endx = (int) (size.width * 0.30);
+        int starty = size.height / 2;
+        System.out.println("startx = " + startx + " ,endx = " + endx + " , starty = " + starty);
+        android.swipe(startx, starty, endx, starty, 3000);
+    }
+
+    protected void goBack(){
+
         android.findElement(By.id("com.wumoo.byviruzz:id/toolbar_goBackButton")).click();
     }
 
@@ -68,27 +83,43 @@ public class androidSetup {
         android.findElement(By.id("com.wumoo.byviruzz:id/event_footer_likeHeartButton")).click();
     }
 
-    private void eventImage(){
+    protected void eventImage(){
 
         android.findElement(By.id("com.wumoo.byviruzz:id/event_image")).click();
     }
 
-    private void goToYoutube() {
+    protected void goToYoutube() {
 
         android.startActivity(appPackage, "com.wumoo.customyoutuber.activity.YoutubePlayerActivity");
 
     }
 
-    private void goToHome() {
+    protected void goToHome() {
 
         android.startActivity("com.wumoo.byviruzz", "com.wumoo.customyoutuber.activity.TimelinerActivity");
 
     }
 
-    private void goToPhoto() {
+    protected void goToPhoto() {
 
         android.startActivity("com.wumoo.byviruzz", "com.wumoo.customyoutuber.activity.YoutuberMessageActivity");
 
+    }
+
+    protected void removeAds(){
+
+//        android.findElement(By.id("com.wumoo.byviruzz:id/fbAdCloseLink")).click();
+        android.tap(1,1020,1782,1000);
+    } // NO FUNCIONA
+
+    protected void addLike(){
+
+        android.findElement(By.id("com.wumoo.byviruzz:id/event_footer_likeHeartButton")).click();
+    }
+
+    protected void scrollTo(String scroll){
+
+        android.scrollTo(scroll);
     }
 
     @AfterClass //cierra automaticamente la sesión cuando acaba el test

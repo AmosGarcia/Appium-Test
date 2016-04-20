@@ -22,11 +22,11 @@ public class testButtonLike extends androidSetup{
     }
 
     @Test
-    public void testCal() throws Exception {
+    public void testCall() throws Exception {
 
         Thread.sleep(4000);
-        for (int i = 0; i < 20 ; i++) {
-            buttonLike();
+        for (int i = 0; i < 50 ; i++) {
+            buttonLike();buttonLike();buttonLike();buttonLike();buttonLike();buttonLike();buttonLike();buttonLike();buttonLike();
         }
 
     }
